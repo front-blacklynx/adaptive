@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 1200px; */
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* обнуление */
+button {
+    background-color: transparent;
+    border: 0px;
+    display: inline-block;
+}

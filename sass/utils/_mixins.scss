@@ -1,0 +1,14 @@
+@mixin svg($svg) {
+    display: inline-block;
+    content: "";
+    background: $grey;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background-image: url($svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    cursor: pointer;
+
+}

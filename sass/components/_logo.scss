@@ -1,0 +1,24 @@
+.logo {
+    display: inline-block;
+    text-transform: none;
+}
+
+.logo-blue {
+    display: inline-block;
+    font-family: $logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: $blue;
+}
+
+.logo-black {
+    display: inline-block;
+    font-family: $logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: $black;
+}

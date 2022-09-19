@@ -1,0 +1,21 @@
+.vika,
+.address-top {
+    display: none;
+}
+
+.burger {
+    width: 24px;
+    height: 2.6px;
+    background: $black;
+
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.header {
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
